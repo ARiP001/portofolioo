@@ -9,6 +9,10 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+col1, col2, col3 = st.columns([1,50, 1])
+with col2:
+    st.image("assets/crypto-dashboard.png", caption="Connecting Project Needs with the Right Professionals")
+
 st.write("---")
 
 # --- PROBLEM & SOLUTION ---
@@ -95,7 +99,26 @@ with st.container():
     """, unsafe_allow_html=True)
     st.markdown("The final backend was a fully functional and deployed API, capable of handling user management, transactions, and providing real-time data to the React frontend.")
     
-    st.image("https://placehold.co/1200x400/00A86B/FFFFFF?text=API+Endpoints+Example", caption="An example showcasing the structure of the API and its endpoints.")
+    # Display crypto project images
+    st.markdown("### 📸 Project Screenshots")
+    
+    # Create tabs for different sections
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["🔌 API", "🏠 Home", "📊 List Coin", "🔍 Detail", "💼 Portfolio"])
+    
+    with tab1:
+        st.image("assets/crypto-api.png", caption="API Documentation - Backend API endpoints and structure")
+    
+    with tab2:
+        st.image("assets/crypto-home.png", caption="Crypto Tracker Home Page - Main dashboard showing market overview")
+    
+    with tab3:
+        st.image("assets/crypto-listcoin.png", caption="Crypto List Page - Browse and search through available cryptocurrencies")
+    
+    with tab4:
+        st.image("assets/crypto-detail.png", caption="Crypto Detail Page - Detailed view of individual cryptocurrency with charts and data")
+    
+    with tab5:
+        st.image("assets/crypto-porto.png", caption="Portfolio Page - User's virtual portfolio showing holdings and performance")
 
     st.markdown("""
     <div style="background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%); padding: 15px; border-radius: 8px; margin: 15px 0;">
