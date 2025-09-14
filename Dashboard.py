@@ -2,7 +2,7 @@ import streamlit as st
 
 # Mengatur konfigurasi halaman
 st.set_page_config(
-    page_title="Arif Fathurrahman | Portfolio",
+    page_title="Arif Fathurrahman ajfdkakdjfka| Portfolio",
     page_icon="👨‍💻",
     layout="wide"
 )
