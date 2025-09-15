@@ -145,7 +145,7 @@ with st.container():
         st.image("assets/Dart_logo.png", width=50, caption="Dart")
     
     with col2:
-        st.image("assets/flutter_logo.svg", width=50, caption="Flutter")
+        st.image("assets/Flutter_logo.svg", width=50, caption="Flutter")
     
     with col3:
         st.image("assets/google-maps-2020-icon.svg", width=50, caption="Google Maps")
